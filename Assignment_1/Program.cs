@@ -171,38 +171,38 @@ namespace Assignment_1
             //    Console.WriteLine("Consonant");
             #endregion
             #region Q17
-            Console.Write("Enter month number (1-12): ");
-            if (int.TryParse(Console.ReadLine(), out int month))
-            {
-                switch (month)
-                {
-                    case 1:
-                    case 3:
-                    case 5:
-                    case 7:
-                    case 8:
-                    case 10:
-                    case 12:
-                        Console.WriteLine("Days in Month: 31");
-                        break;
-                    case 4:
-                    case 6:
-                    case 9:
-                    case 11:
-                        Console.WriteLine("Days in Month: 30");
-                        break;
-                    case 2:
-                        Console.WriteLine("Days in Month: 28 or 29");
-                        break;
-                    default:
-                        Console.WriteLine("Invalid month number.");
-                        break;
-                }
-            }
-            else
-            {
-                Console.WriteLine("Invalid input.");
-            }
+            //Console.Write("Enter month number (1-12): ");
+            //if (int.TryParse(Console.ReadLine(), out int month))
+            //{
+            //    switch (month)
+            //    {
+            //        case 1:
+            //        case 3:
+            //        case 5:
+            //        case 7:
+            //        case 8:
+            //        case 10:
+            //        case 12:
+            //            Console.WriteLine("Days in Month: 31");
+            //            break;
+            //        case 4:
+            //        case 6:
+            //        case 9:
+            //        case 11:
+            //            Console.WriteLine("Days in Month: 30");
+            //            break;
+            //        case 2:
+            //            Console.WriteLine("Days in Month: 28 or 29");
+            //            break;
+            //        default:
+            //            Console.WriteLine("Invalid month number.");
+            //            break;
+            //    }
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Invalid input.");
+            //}
             #endregion
 
 
